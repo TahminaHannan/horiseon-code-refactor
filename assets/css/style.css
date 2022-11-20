@@ -20,8 +20,9 @@ body {
     font-size: 48px;
 }
 
-/*Removed header .seo*/
-
+.header h1 .seo {
+    color: #d9dcd6;
+}
 
 /*Changed 'div' to 'nav'.*/
 .header nav {
