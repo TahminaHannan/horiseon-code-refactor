@@ -2,26 +2,31 @@
 
 ## About this project
 
-Hired by the Marketing Manager to refactor their landing page - Horiseon.
-Tasked to modify the existing codebase to ensure it is more accessible and optimized for search engines. 
+Hired by the Marketing Manager to refactor their landing page - Horiseon, Social Solution Services.
+Tasked to improve their existing codebase to ensure it is more accessible and optimized for search engines. 
 
-Previously, there were several elements in the HTML and CSS file that needed to be replaced, consolidated and fixed. The following changes were made to achieve the Marketing Managers criteria:
+Previously, there were several elements in the HTML and CSS file that needed to be repaired, consolidated and tested. The following changes were made to achieve the Marketing Managers criteria:
 
-- [x] Updated the title of the webpage.
-- [x] Viewport meta tag added to allow web content to be seen.
-- [x] CSS selectors and properties have been reworked, looking cleaner and consolidated following a semanic structure.
-- [x] Heading attributes fall in sequential order
-- [x] HTML elements follow a logical structure independent of styling and positioning
-- [x] Image and icon elements contain accessible alt attributes.
-- [x] All links in the navigation bar and 'seo' in 'Horiseon' are functioning correctly.
-- [x] All div elements were replaced with semantic elements.
-- [x] Comments added to section of the page to allow  to detail content and help in any future changes.
+- [x] Updated the title of the webpage to read 'Horiseon Social Solution Services'.
+- [x] Meta viewport tag added to allow users to be able to see from any device or monitor, reaching our to a wider audience.
+- [x] CSS selectors and properties have been reworked, consolidated repeating CSS.
+- [x] HTML elements and Heading attributes follow a logical structure.
+- [x] Image and icon elements contain descriptive 'alt' attributes incase these fail to load in the future.
+- [x] All links in the navigation bar and the 'seo' in 'Horiseon' are functioning correctly.
+- [x] All div's were replaced with semantic elements.
+- [x] Explanatory comments added to both HTML and CSS to allow other developers to understand the changes.
 - [x] Quality README was created.
+- [x] Website has been validated using w3 to ensure no errors.
 
 ## Screenshot
 The following shows the web applications appearance:
+
 ![Web screenshot](assets/images/screen-capture.png)
 
+
+The following shows two VSC windows for comparison. Left side (after) shows how repeating CSS selectors have been consolidated and the right side (before) shows the original code having been repeated. Both achieves the same results except the consolidated CSS is grouped together looking more simpler, taking up less line space and easy to manage:
+
+![VSC comparison](assets/images/css-consolidation-comparison.png)
 
 ## Project Link
 Application can can be viewed here: 
@@ -29,9 +34,16 @@ Application can can be viewed here:
 
 * [Repository](https://github.com/TahminaHannan/horiseon-code-refactor)
 
-
+## Built with:
 Note: The website layout is designed for desktop viewing, you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px.
-This can be fixed by using responsive element so that your web application is optimized for any screen size.
+* HTML
+* CSS
+* Gitbash
+
+## Tests
+Tested the website functionality using:
+* [w3 - Validator](https://validator.w3.org/nu/)
+
 
 
 ## Credits

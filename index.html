@@ -3,15 +3,15 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!--Added meta name-->
+    <!--Added meta viewport for mobile and monitor accessibility-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <!--Updated title of the website-->
-    <title>Horiseon Social Solution Services</title>
+    <title>Horiseon | Social Solution Services</title>
 </head>
 
 <body>
-     <!--Changed div to semantic element - header--> 
+     <!--Changed div to semantic element - header, to improve organization--> 
     <header class="header">
         <!--Added a link on 'seo' in h1 to 'search-engine-optimization--> 
         <h1>Hori<a href="#search-engine-optimization"><span class="seo">seo</span>n</h1>
@@ -29,14 +29,14 @@
                 </li>
             </ul>
         </nav>
-        <!--Changed div to semantic - /nav--> 
+        <!--Changed div to closing semantic - /nav--> 
         <!--Changed div to semantic element - /header--> 
     </header>
 
     <div class="hero"></div>
 
-    <!--Changed div to semantic element - section--> 
-    <section class="content">
+    <!--Changed div to semantic element - main--> 
+    <main class="content">
 
     <!--'id' and 'search-engine-optimization' added to allow the above a href link in line 23 to work. Note to self, 'id' should be used on a single html element, there is only 3 here on this html, so this has been done correctly-->
     <!--Changed div to semantic element - section--> 
@@ -82,8 +82,8 @@
     </section>
     <!--Changed div to semantic element - /section--> 
 
-    </section>
-     <!--Changed div to semantic element - /section--> 
+</main>
+     <!--Changed div to semantic element - /main--> 
 
     <!--Changed div to semantic element - aside--> 
     <aside class="benefits">
@@ -117,7 +117,7 @@
     <aside class="benefit-cost">
         <h3>Cost Management</h3>
         <img src="./assets/images/cost-management.png"
-        alt="A gear with dollar coins icon" />
+        alt="A cog with dollar coins icon" />
         <!--Removed closing </img> tag -->
 
         <p>
@@ -131,8 +131,8 @@
 
     <!--Changed div footer to semantic element - footer -->
     <footer>
-        <!--Removed h2, bad practice to have headings in footer-->
-        Made with ❤️️ by Horiseon
+        <!--Replace h2 to h4-->
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
         &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
