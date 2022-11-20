@@ -44,6 +44,8 @@ Note: The website layout is designed for desktop viewing, you may notice that so
 Tested the website functionality using:
 * [w3 - Validator](https://validator.w3.org/nu/)
 
+![Web screenshot](assets/images/no-error-checker.png)
+
 
 
 ## Credits
