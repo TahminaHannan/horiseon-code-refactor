@@ -52,6 +52,7 @@ I would like to thank the following resources:
 * [w3 - Semantic HTML](https://www.w3schools.com/html/html5_semantic_elements.asp)
 * [Reliable Soft - Image alt attribute](https://www.reliablesoft.net/alt-text/)
 * [Stack overflow - Consolidating CSS](https://stackoverflow.com/questions/48593160/how-to-combine-two-classes-that-have-same-properties)
+* [Stack overflow - link in h1 tag with span](https://stackoverflow.com/questions/64310371/two-lines-with-link-and-span-in-h1-tag)
 * [Github - Basic writing syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## License
