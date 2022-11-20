@@ -1,13 +1,15 @@
+/*This CSS styles applies to the overall web page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*This CSS style applies to the Body of the page*/
 body {
     background-color: #d9dcd6;
 }
 
+/*This CSS style applies to the Header of the page*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,10 +51,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +58,17 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/*This CSS style applies to the Main section of the web page*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -72,12 +81,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/*This CSS style applies to the Aside section of the web page*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -141,6 +145,7 @@ p {
     font-size: 36px;
 }
 
+/*This CSS style applies to the HeFooter section of the web page*/
 /*Amended footer class (from '.footer' to 'footer'). Added font size and deleted '.footer h2'.*/
 footer {
     padding: 30px;

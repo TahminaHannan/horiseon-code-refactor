@@ -5,14 +5,14 @@
 Hired by the Marketing Manager to refactor their landing page - Horiseon, Social Solution Services.
 Tasked to improve their existing codebase to ensure it is more accessible and optimized for search engines. 
 
-Previously, there were several elements in the HTML and CSS file that needed to be repaired, consolidated and tested. The following changes were made to achieve the Marketing Managers criteria:
+Prior to taking on this project, the website had broken links, repeated CSS and was not widely searchable on search engines. There were several elements in the HTML and CSS file that needed to be repaired, consolidated and tested. The following changes were put in place to achieve the Marketing Managers criteria:
 
-- [x] Updated the title of the webpage to read 'Horiseon Social Solution Services'.
+- [x] Updated the title of the webpage to read 'Horiseon | Social Solution Services'.
 - [x] Meta viewport tag added to allow users to be able to see from any device or monitor, reaching our to a wider audience.
-- [x] CSS selectors and properties have been reworked, consolidated repeating CSS.
+- [x] CSS selectors and properties have been reworked by consolidating repeating CSS styles.
 - [x] HTML elements and Heading attributes follow a logical structure.
-- [x] Image and icon elements contain descriptive 'alt' attributes incase these fail to load in the future.
-- [x] All links in the navigation bar and the 'seo' in 'Horiseon' are functioning correctly.
+- [x] Image and icon elements contain descriptive 'alt' attributes allowing users to know what the picture or icon is incase these fail to load at any point in time.
+- [x] All links in the navigation bar and the letters 'seo' in 'Horiseon' in the main header are functioning correctly.
 - [x] All div's were replaced with semantic elements.
 - [x] Explanatory comments added to both HTML and CSS to allow other developers to understand the changes.
 - [x] Quality README was created.
